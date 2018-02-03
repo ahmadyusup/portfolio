@@ -24,6 +24,7 @@ h6 {
     text-transform: uppercase;
     font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
     font-weight: 700;
+    padding-bottom: 20px;
 }
 
 .img-centered {
@@ -115,9 +116,15 @@ section h2 {
 /* Introduction Styles
 /* -------------------------------------*/
 #introduction {
-	text-align: center;
-	color: #fff;
-	background-color: #0066FF;
+    background-image: url(../image/header.jpg);
+    background-size: auto, cover;
+    background-attachment: fixed;
+    background-position: center, center;
+    background-repeat: no-repeat;
+    min-height: 700px;
+  	text-align: center;
+  	color: #fff;
+  	background-color: #0066FF;
 }
 
 #introduction .container {
@@ -150,7 +157,7 @@ section h2 {
     }
 
     #introduction .intro-text .name {
-        font-size: 3em;
+        font-size: 3.5em;
     }
 
     #introduction .intro-text .skills {
@@ -170,6 +177,9 @@ section h2 {
     background: #ebebeb;
 }
 
+/* About
+/* -------------------------------------*/
+
 /* Portfolio Styles
 /* -------------------------------------*/
 #portfolio .portfolio-item {
@@ -181,6 +191,11 @@ section h2 {
     #portfolio .portfolio-item {
         margin: 0 0 30px;
     }
+}
+
+#portfolio img{
+    height: 230px;
+    width: 400px;
 }
 
 /* Contact Styles

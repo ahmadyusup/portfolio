@@ -135,6 +135,8 @@ section h2 {
 #introduction img {
     display: block;
     margin: 0 auto 20px;
+    height: 270px;
+    width: 270px;
 }
 
 #introduction .intro-text .name {
